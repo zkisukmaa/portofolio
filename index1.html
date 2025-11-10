@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Slider</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="portfolio-container">
+        <!-- Animated Code Background -->
+        <div class="code-background">
+            <div class="code-overlay"></div>
+        </div>
+
+        <!-- Floating Code Elements -->
+        <div class="floating-elements">
+            <span class="float-item">{</span>
+            <span class="float-item">}</span>
+            <span class="float-item">(</span>
+            <span class="float-item">)</span>
+            <span class="float-item"><</span>
+            <span class="float-item">></span>
+            <span class="float-item">/</span>
+            <span class="float-item">=</span>
+            <span class="float-item">+</span>
+            <span class="float-item">-</span>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="logo">
+                    <span class="bracket">&lt;</span>
+                    Portfolio
+                    <span class="bracket">/&gt;</span>
+                </div>
+                
+                <!-- Slide Indicators -->
+                <div class="slide-indicators">
+                    <button class="indicator active" data-slide="0"></button>
+                    <button class="indicator" data-slide="1"></button>
+                    <button class="indicator" data-slide="2"></button>
+                </div>
+            </header>
+
+            <!-- Slide Content -->
+            <main class="slide-content">
+                <!-- Slide 1: Biodata -->
+                <div class="slide active" id="slide-0">
+                    <div class="biodata-content">
+                        <div class="avatar-section">
+                            <div class="avatar">AZS</div>
+                            <h2>Ahmad Zaki Sukmawansyah</h2>
+                        </div>
+                        
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-icon">👤</div>
+                                <div class="info-text">
+                                    <span class="label">nama</span>
+                                    <span class="value">Ahmad Zaki Sukmawansyah</span>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">🏫</div>
+                                <div class="info-text">
+                                    <span class="label">kelas</span>
+                                    <span class="value">D3IF-4901</span>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">🆔</div>
+                                <div class="info-text">
+                                    <span class="label">nim</span>
+                                    <span class="value">607062500013</span>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">📚</div>
+                                <div class="info-text">
+                                    <span class="label">jurusan</span>
+                                    <span class="value">D3 Rekayasa Perangkat Lunak Aplikasi</span>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">📍</div>
+                                <div class="info-text">
+                                    <span class="label">alamat</span>
+                                    <span class="value">Bandung, Indonesia</span>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">✉️</div>
+                                <div class="info-text">
+                                    <span class="label">email</span>
+                                    <span class="value">zakisukma@email.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Cita-cita -->
+                <div class="slide" id="slide-1">
+                    <div class="goals-content">
+                        <div class="section-header">
+                            <h2>Roadmap Karir</h2>
+                            <p>Perjalanan menuju masa depan yang cerah</p>
+                        </div>
+                        
+                        <div class="goals-grid">
+                            <div class="goal-card">
+                                <div class="goal-icon">💻</div>
+                                <h3>Web Developer</h3>
+                                <p>Menjadi developer yang handal dalam membuat dan mengembangkan website</p>
+                                <div class="goal-footer">
+                                    <span class="timeline">2025-2027</span>
+                                    <span class="step">Step 1</span>
+                                </div>
+                            </div>
+                            <div class="goal-card">
+                                <div class="goal-icon">👥</div>
+                                <h3>UI/UX Design</h3>
+                                <p>Menciptakan desain UI yang mudah digunakan untuk semua pengguna</p>
+                                <div class="goal-footer">
+                                    <span class="timeline">2026-2028</span>
+                                    <span class="step">Step 2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Skills -->
+                <div class="slide" id="slide-2">
+                    <div class="skills-content">
+                        <div class="section-header">
+                            <h2>Technical Skills</h2>
+                            <p>Tools & Technologies yang saya kuasai</p>
+                        </div>
+                        
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <div class="skill-header">
+                                    <div class="skill-icon">💻</div>
+                                    <h3>Frontend</h3>
+                                </div>
+                                <ul class="skill-list">
+                                    <li>index.html</li>
+                                    <li>style.css</li>
+                                </ul>
+                              </div>
+                            <div class="skill-category">
+                                <div class="skill-header">
+                                    <div class="skill-icon">💻</div>
+                                    <h3>UI/UI Design</h3>
+                                </div>
+                                <ul class="skill-list">
+                                    <li>Figma</li>
+                                    <li>Adobe Photoshop</li>
+                                    <li>Adobe Ilustrator</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-section">
+                            <h3>Mari Berkolaborasi!</h3>
+                            <p>Tertarik untuk bekerja sama? Hubungi saya!</p>
+                            <div class="contact-buttons">
+                                <button class="btn-primary">📧 Email</button>
+                                <button class="btn-secondary">💻 GitHub</button>
+                                <button class="btn-secondary">💼 LinkedIn</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Navigation -->
+            <div class="navigation">
+                <button class="nav-btn" id="prevBtn">
+                    ← Previous
+                </button>
+
+                <div class="slide-title">
+                    <h1 id="currentTitle">Biodata</h1>
+                    <p id="slideCounter">1 of 3</p>
+                </div>
+
+                <button class="nav-btn" id="nextBtn">
+                    Next →
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
